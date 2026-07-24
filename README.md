@@ -4,11 +4,7 @@ A responsive 3-page business website for a fictional coding academy, built using
 
 ## Live Demo
 
-🔗 https://YOUR-USERNAME.github.io/codesphere-academy/
-
-> Replace the above URL with your GitHub Pages link after deployment.
-
-
+🔗 https://mahnoorfatima128.github.io/Codesphere-Academy/
 ## Features
 
 - Fully responsive design (Desktop, Tablet & Mobile)
