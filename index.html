@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodeSphere Academy — Learn Coding Skills For Your Future Career</title>
+  <meta name="description" content="CodeSphere Academy offers practical, project-based coding courses in web development, programming fundamentals, AI basics, and mobile app development." />
+  <meta name="theme-color" content="#060912" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%233b6ff2'/%3E%3Ctext x='50' y='64' font-size='46' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'%3E%3C/%3E%3C/text%3E%3C/svg%3E" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CodeSphere Academy" />
+  <meta property="og:title" content="CodeSphere Academy — Learn Coding Skills For Your Future Career" />
+  <meta property="og:description" content="Practical, project-based coding courses in web development, programming fundamentals, AI basics, and mobile app development." />
+  <meta name="twitter:card" content="summary" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scroll-progress"></div>
+
+  <!-- =================== NAVBAR =================== -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">&lt;/&gt;</span>
+        CodeSphere Academy
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="contact.html" class="btn btn-primary">Enroll Now</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Toggle dark and light mode">
+          <!-- Sun icon (light mode indicator) -->
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+          <!-- Moon icon (dark mode indicator) -->
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+        <button class="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="nav-overlay"></div>
+  </header>
+
+  <main>
+    <!-- =================== HERO =================== -->
+    <section class="hero">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-tag"><span class="dot"></span> Practical, project-based coding education</span>
+          <h1>Learn Coding Skills For Your <span class="gradient-text">Future Career</span></h1>
+          <div class="hero-underline"></div>
+          <p>Develop programming and software skills through practical learning and real-world projects.</p>
+          <div class="hero-actions">
+            <a href="#courses" class="btn btn-primary">Explore Courses</a>
+            <a href="contact.html" class="btn btn-secondary" style="color:#fff; border-color:rgba(255,255,255,0.2);">Start Learning</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== COURSES =================== -->
+    <section class="section" id="courses">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Courses</span>
+          <h2>Choose Your Learning Path</h2>
+          <p>Structured courses designed to take you from fundamentals to practical, job-ready skills.</p>
+        </div>
+
+        <div class="course-grid">
+          <div class="course-card">
+            <div class="course-icon">01</div>
+            <h3>Web Development</h3>
+            <p>Learn to build modern, responsive websites from the ground up.</p>
+            <div class="course-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Frontend Basics</span>
+            </div>
+          </div>
+
+          <div class="course-card">
+            <div class="course-icon">02</div>
+            <h3>Programming Fundamentals</h3>
+            <p>Build a strong foundation in core programming logic and structure.</p>
+            <div class="course-tags">
+              <span>C++</span><span>Java</span><span>Python</span><span>OOP</span>
+            </div>
+          </div>
+
+          <div class="course-card">
+            <div class="course-icon">03</div>
+            <h3>Artificial Intelligence Basics</h3>
+            <p>Get introduced to AI concepts and how machines learn from data.</p>
+            <div class="course-tags">
+              <span>Python</span><span>AI Concepts</span><span>Machine Learning Basics</span>
+            </div>
+          </div>
+
+          <div class="course-card">
+            <div class="course-icon">04</div>
+            <h3>Mobile App Development</h3>
+            <p>Understand the fundamentals of designing and building mobile apps.</p>
+            <div class="course-tags">
+              <span>Mobile UI</span><span>App Development Fundamentals</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== TOOLS / SKILLS STRIP =================== -->
+    <section class="tools-strip">
+      <div class="container">
+        <div class="section-header reveal" style="margin-bottom: 32px;">
+          <span class="eyebrow">Skills You'll Build</span>
+          <h2 style="font-size: clamp(1.4rem, 2.5vw, 1.9rem);">Languages & Tools Covered in Our Courses</h2>
+        </div>
+        <div class="tools-marquee">
+          <span class="tool-pill"><span class="dot"></span>HTML & CSS</span>
+          <span class="tool-pill"><span class="dot"></span>JavaScript</span>
+          <span class="tool-pill"><span class="dot"></span>Java</span>
+          <span class="tool-pill"><span class="dot"></span>Python</span>
+          <span class="tool-pill"><span class="dot"></span>C++</span>
+          <span class="tool-pill"><span class="dot"></span>OOP Concepts</span>
+          <span class="tool-pill"><span class="dot"></span>AI Concepts</span>
+          <span class="tool-pill"><span class="dot"></span>Machine Learning Basics</span>
+          <span class="tool-pill"><span class="dot"></span>Mobile UI Design</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== WHY CHOOSE US =================== -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Why CodeSphere</span>
+          <h2>Why Choose Us</h2>
+          <p>We focus on practical skill-building so you can learn with confidence and clarity.</p>
+        </div>
+
+        <div class="why-grid">
+          <div class="why-card">
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            </div>
+            <h4>Practical Project Learning</h4>
+          </div>
+          <div class="why-card">
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+            </div>
+            <h4>Beginner Friendly Courses</h4>
+          </div>
+          <div class="why-card">
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10M18 20V4M6 20v-4"></path></svg>
+            </div>
+            <h4>Skill Based Learning</h4>
+          </div>
+          <div class="why-card">
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            </div>
+            <h4>Mentor Support</h4>
+          </div>
+          <div class="why-card">
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+            </div>
+            <h4>Career Guidance</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== LEARNING PROCESS =================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">How It Works</span>
+          <h2>Your Learning Process</h2>
+          <p>A simple, structured path from your first lesson to career readiness.</p>
+        </div>
+
+        <div class="process-grid">
+          <div class="process-step">
+            <span class="step-number">01</span>
+            <h4>Choose Course</h4>
+            <p>Pick the learning path that matches your goals and experience level.</p>
+          </div>
+          <div class="process-step">
+            <span class="step-number">02</span>
+            <h4>Learn Skills</h4>
+            <p>Follow structured lessons that build your knowledge step by step.</p>
+          </div>
+          <div class="process-step">
+            <span class="step-number">03</span>
+            <h4>Build Projects</h4>
+            <p>Apply what you've learned by working on real, hands-on projects.</p>
+          </div>
+          <div class="process-step">
+            <span class="step-number">04</span>
+            <h4>Improve Your Career</h4>
+            <p>Use your new skills and project portfolio to move your career forward.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =================== FAQ =================== -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2>Frequently Asked Questions</h2>
+          <p>Answers to common questions about learning with CodeSphere Academy.</p>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">
+              Do I need prior coding experience to start?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>No. Our courses are designed to be beginner friendly, starting with fundamentals before moving into more advanced topics.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              How are the courses structured?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Each course combines guided lessons with practical, project-based exercises so you can apply concepts as you learn them.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Will I work on real projects?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. Project-based learning is central to our approach, helping you build a practical portfolio as you progress.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Is mentor support available during the course?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. Learners can access mentor support to help work through challenges and stay on track with their goals.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              How do I get started?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Simply choose a course that matches your interests and reach out through our contact page to begin enrollment.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== CTA BAND =================== -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-band reveal">
+          <h2>Ready to start your coding journey?</h2>
+          <p>Take the first step toward building real technology skills for your future career.</p>
+          <a href="contact.html" class="btn btn-primary">Enroll Now</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =================== FOOTER =================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-mark">&lt;/&gt;</span>
+            CodeSphere Academy
+          </a>
+          <p>Practical, project-based coding education to help you build real technology skills.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg>
+            </a>
+            <a href="#" aria-label="Twitter / X">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23.5 22h-7.4l-5.8-7.1L3.6 22H.5l8.2-9.4L1 2h7.6l5.2 6.5L18.9 2zm-1.3 18h2L7.5 4h-2l12.1 16z"/></svg>
+            </a>
+            <a href="#" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.9 8.4H3.3V21h3.6V8.4zM5.1 3a2.1 2.1 0 1 0 0 4.2 2.1 2.1 0 0 0 0-4.2zM21 21v-7.1c0-3.4-1.8-5-4.2-5-1.9 0-2.8 1.1-3.3 1.8V8.4h-3.6V21h3.6v-6.4c0-1.7 1-2.6 2.1-2.6 1.1 0 1.9.9 1.9 2.6V21H21z"/></svg>
+            </a>
+            <a href="#" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.4-1.2-1-1.5-1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.7.4-1.1.6-1.4-2.2-.2-4.6-1.1-4.6-5a3.9 3.9 0 0 1 1-2.7c-.1-.3-.5-1.3.1-2.6 0 0 .9-.3 2.9 1a10 10 0 0 1 5.3 0c2-1.3 2.9-1 2.9-1 .6 1.3.2 2.3.1 2.6a3.9 3.9 0 0 1 1 2.7c0 3.9-2.4 4.7-4.7 5 .4.3.7 1 .7 2v2.9c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Courses</h4>
+          <ul>
+            <li><a href="index.html#courses">Web Development</a></li>
+            <li><a href="index.html#courses">Programming Fundamentals</a></li>
+            <li><a href="index.html#courses">Artificial Intelligence Basics</a></li>
+            <li><a href="index.html#courses">Mobile App Development</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:codesphere@gmail.com">codesphere@gmail.com</a></li>
+            <li><a href="tel:+923198474568">0319-8474568</a></li>
+            <li><a href="contact.html">Gujrat, Pakistan</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="newsletter-band reveal" style="margin: 48px 0 40px;">
+        <div class="newsletter-copy">
+          <h3>Get free coding tips in your inbox</h3>
+          <p>One short email a week — beginner tutorials, project ideas, and course updates. No spam.</p>
+        </div>
+        <div>
+          <form class="newsletter-form" id="newsletter-form">
+            <input type="email" id="newsletter-email" placeholder="you@example.com" required aria-label="Email address" />
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+          <p class="newsletter-note">By subscribing, you agree to receive emails from CodeSphere Academy. Unsubscribe anytime.</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 CodeSphere Academy. All rights reserved.</p>
+        <p>Built for practical technology education.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
